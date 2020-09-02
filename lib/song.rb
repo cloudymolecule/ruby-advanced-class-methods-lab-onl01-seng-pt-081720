@@ -43,15 +43,7 @@ class Song
   end
 
   def self.new_from_filename(name)
-
-    if name.include? (".mp3")
-      res = []
-      res << name.split("-")
-      #res.to_a
-      binding.pry
-
-    end
-
+    name.split(-)
   end
 
   def self.create_from_filename
