@@ -44,7 +44,8 @@ class Song
 
   def self.new_from_filename(name)
     res = name.split(" - ")
-    res = res[1].split(".")
+    res2 = res[0]
+    res3 = res[1].split(".")
 
 
     binding.pry
