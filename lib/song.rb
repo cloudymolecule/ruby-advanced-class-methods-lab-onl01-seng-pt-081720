@@ -43,10 +43,9 @@ class Song
   end
 
   def self.new_from_filename(name)
-    res = name.split(" - ")
-    res2 = res[0]
-    res3 = res[1].split(".")
-    res3 = res[0]
+    file_split = name.split(" - ")
+    file_art = file_split[0]
+    file_name = file_split[1]
 
     binding.pry
   end
