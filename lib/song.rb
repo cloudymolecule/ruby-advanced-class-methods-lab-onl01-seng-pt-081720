@@ -46,7 +46,7 @@ class Song
     res = name.split(" - ")
     res2 = res[0]
     res3 = res[1].split(".")
-
+    res3 = res[0]
 
     binding.pry
   end
