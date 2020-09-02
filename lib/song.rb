@@ -46,7 +46,8 @@ class Song
     file_split = name.split(" - ")
     file_art = file_split[0]
     file_name = file_split[1]
-
+    name_ext = file_name.split(".")
+    file_name = name_ext[0]
     binding.pry
   end
 
